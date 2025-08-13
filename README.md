@@ -1,25 +1,21 @@
-
 🖩 Python GUI Calculator
-A simple yet improved desktop calculator built using Python’s Tkinter library.
-It supports both mouse clicks and keyboard input, with a focus on safety and usability.
+An enhanced, lightweight calculator application built with Python’s Tkinter library.
+Designed with a clean interface 🖌️, it supports both mouse 🖱️ and keyboard ⌨️ operations, ensuring fast ⚡ and efficient calculations.
 
+✨ Key Highlights
+🖼️ Intuitive Interface – Clearly arranged buttons for numbers, operators, clear, backspace, and equals.
 
-✨ Features
-User-Friendly GUI – Buttons for numbers, operators, clear, backspace, and equals.
+⌨️ Full Keyboard Support – Type inputs, press Enter for results, and use Backspace to delete characters.
 
-Keyboard Support – Type numbers/operators, press Enter for result, and Backspace to delete.
+🔒 Secure Evaluation – Uses regex-based filtering to prevent unsafe code execution.
 
-Safe Expression Evaluation – Filters inputs to avoid malicious code execution.
+🎯 Neat Output – Automatically removes unnecessary .0 from whole number results.
 
-Smart Result Formatting – Removes unnecessary .0 for whole numbers.
+🛡️ Error-Resilient – Displays "Error" for invalid expressions without crashing.
 
-Error Handling – Displays "Error" for invalid expressions.
+🖥️ Built With
+🐍 Python 3
 
+🖼️ Tkinter – GUI framework included with Python
 
-
-🖥️ Technologies Used
-Python 3
-
-Tkinter (built-in Python GUI toolkit)
-
-Regex for safe input validation
+🔍 Regular Expressions (Regex) – For validating safe inputs
